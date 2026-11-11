@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the article below and the Batik Nitik 960 dataset."
+title: "Frozen versus full fine-tuning under data scarcity and corruption for Batik Nitik: code and results"
+type: software
+version: 1.0.0
+date-released: 2026-11-11
+license: MIT
+repository-code: "https://github.com/mauprediksikripto-maker/batik-nitik-finetuning-ablation"
+keywords:
+  - Batik Nitik
+  - data leakage
+  - data scarcity
+  - fine-tuning
+  - image corruption robustness
+  - transfer learning
+authors:
+  - family-names: Irawan
+    given-names: Dedi
+    email: dedimti@ummetro.ac.id
+    affiliation: "Faculty of Computer Science, Universitas Muhammadiyah Metro, Indonesia"
+    orcid: "https://orcid.org/0009-0007-4973-926X"
+  - given-names: Sudarmaji
+    email: sudarmaji@ummetro.ac.id
+    affiliation: "Faculty of Computer Science, Universitas Muhammadiyah Metro, Indonesia"
+    orcid: "https://orcid.org/0009-0005-5549-4886"
+  - family-names: Samsudin
+    given-names: Imam
+    email: imamsam@ummetro.ac.id
+    affiliation: "Faculty of Computer Science, Universitas Muhammadiyah Metro, Indonesia"
+    orcid: "https://orcid.org/0009-0006-2482-4209"
+preferred-citation:
+  type: article
+  title: "Frozen versus full fine-tuning under data scarcity and corruption for Batik Nitik"
+  journal: "Bulletin of Electrical Engineering and Informatics"
+  year: 2026
+  authors:
+    - family-names: Irawan
+      given-names: Dedi
+    - given-names: Sudarmaji
+    - family-names: Samsudin
+      given-names: Imam
+references:
+  - type: article
+    title: "Batik Nitik 960 dataset for classification, retrieval, and generator"
+    journal: Data
+    volume: 8
+    issue: 4
+    start: 63
+    year: 2023
+    doi: 10.3390/data8040063
+    authors:
+      - family-names: Minarno
+        given-names: Agus Eko
+      - family-names: Soesanti
+        given-names: Indah
+      - family-names: Nugroho
+        given-names: Hanung Adi

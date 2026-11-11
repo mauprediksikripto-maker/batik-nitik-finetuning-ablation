@@ -1,0 +1,6 @@
+{
+  "python": "3.13.16",
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "gpu": "Tesla T4"
+}

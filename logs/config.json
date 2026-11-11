@@ -1,0 +1,40 @@
+{
+ "BACKBONES": [
+  "EfficientNetB0",
+  "ResNet50",
+  "MobileNetV2"
+ ],
+ "STRATEGIES": [
+  "S0_scratch",
+  "S1_frozen",
+  "S2_partial",
+  "S3_full"
+ ],
+ "RANDOM_PROTOCOL_STRATEGIES": [
+  "S1_frozen",
+  "S3_full"
+ ],
+ "N_FOLDS": 4,
+ "SEEDS": [
+  42
+ ],
+ "IMG_SIZE": 224,
+ "FS_SHOTS": [
+  1,
+  4,
+  8
+ ],
+ "FS_STRATEGIES": [
+  "S1_frozen",
+  "S3_full"
+ ],
+ "CORRUPTIONS": [
+  "blur",
+  "noise",
+  "jpeg",
+  "dark",
+  "lowcontrast",
+  "zoom",
+  "rot15"
+ ]
+}
