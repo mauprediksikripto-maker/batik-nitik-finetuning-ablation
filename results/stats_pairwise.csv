@@ -1,0 +1,13 @@
+backbone,A,B,acc_A,acc_B,A_only_correct,B_only_correct,p_mcnemar,p_ttest,p_mcnemar_holm,p_ttest_holm
+EfficientNetB0,S0_scratch,S1_frozen,0.016666666666666666,1.0,0,944,1.344974619049452e-284,0.0,1.6139695428593423e-283,0.0
+EfficientNetB0,S0_scratch,S2_partial,0.016666666666666666,1.0,0,944,1.344974619049452e-284,0.0,1.6139695428593423e-283,0.0
+EfficientNetB0,S0_scratch,S3_full,0.016666666666666666,1.0,0,944,1.344974619049452e-284,0.0,1.6139695428593423e-283,0.0
+EfficientNetB0,S1_frozen,S2_partial,1.0,1.0,0,0,1.0,,1.0,1.0
+EfficientNetB0,S1_frozen,S3_full,1.0,1.0,0,0,1.0,,1.0,1.0
+EfficientNetB0,S2_partial,S3_full,1.0,1.0,0,0,1.0,,1.0,1.0
+ResNet50,S1_frozen,S2_partial,1.0,1.0,0,0,1.0,,1.0,1.0
+ResNet50,S1_frozen,S3_full,1.0,1.0,0,0,1.0,,1.0,1.0
+ResNet50,S2_partial,S3_full,1.0,1.0,0,0,1.0,,1.0,1.0
+MobileNetV2,S1_frozen,S2_partial,1.0,1.0,0,0,1.0,,1.0,1.0
+MobileNetV2,S1_frozen,S3_full,1.0,1.0,0,0,1.0,,1.0,1.0
+MobileNetV2,S2_partial,S3_full,1.0,1.0,0,0,1.0,,1.0,1.0

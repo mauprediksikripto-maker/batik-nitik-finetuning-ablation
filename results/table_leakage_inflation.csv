@@ -1,0 +1,7 @@
+backbone,strategy,group,random,inflation_pp
+EfficientNetB0,S1_frozen,1.0,1.0,0.0
+EfficientNetB0,S3_full,1.0,1.0,0.0
+MobileNetV2,S1_frozen,1.0,1.0,0.0
+MobileNetV2,S3_full,1.0,1.0,0.0
+ResNet50,S1_frozen,1.0,1.0,0.0
+ResNet50,S3_full,1.0,1.0,0.0
